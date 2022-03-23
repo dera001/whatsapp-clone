@@ -30,4 +30,4 @@ pip install kivy[base] kivymd
 python3 main.py
 ```
 
-# built with love @ Dera Mobile Legacy (Nig)
+built with love by Chidera C. Onwurah
