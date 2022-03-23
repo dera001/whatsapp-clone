@@ -3,8 +3,8 @@ whatsapp clone built using the kivy framework
 
 # Screenshots
 <p align="center">
-    <img title="Dashboard" height="600" src="https://github.com/dera001/whatsapp-clone/blob/main/screenshot/tia5562041183793707689.png" width="250"/>
-    <img title="User management" height="600" src="https://github.com/dera001/whatsapp-clone/blob/main/screenshot/tia5538439043647290494.png" width="250"/>
+    <img title="Dashboard" height="600" src="https://github.com/dera001/whatsapp-clone/blob/main/screenshot/tia5562041183793707689.png" width="300"/>
+    <img title="User management" height="600" src="https://github.com/dera001/whatsapp-clone/blob/main/screenshot/tia5538439043647290494.png" width="300"/>
 </p>
 
 # Requirements
