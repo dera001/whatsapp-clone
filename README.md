@@ -19,7 +19,7 @@ pip install kivy[base] kivymd
 # usage
 
 <p align="center">
-    <img title="lolx" height="250" src="https://github.com/dera001/whatsapp-clone/blob/main/screenshot/Screenshot%20from%202022-03-22%2020-23-42.png" width="50%"/>
+    <img title="lolx" src="https://github.com/dera001/whatsapp-clone/blob/main/screenshot/Screenshot%20from%202022-03-22%2020-23-42.png"/>
 </p>
 
 * clone the repo
