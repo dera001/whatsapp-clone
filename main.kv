@@ -1,0 +1,185 @@
+BoxLayout:
+    orientation: 'vertical'
+    MDToolbar:
+        title: "WhatsApp"
+        right_action_items: [['magnify', lambda x: x], ['dots-vertical', lambda x: x]]
+    MDTabs:
+        id: android_tabs
+        on_tab_switch: app.on_tab_switch(*args)
+
+        Tab:
+            text: "CHATS"
+            ScrollView:
+                MDList:
+                    id: list
+			FloatLayout:
+				MDFloatingActionButton:
+					md_bg_color : (0.145, 0.827, 0.4, 1)
+					text_color : (1, 1, 1, 1)
+					icon : 'message-reply-text'
+					size : 45, 45
+					pos : root.width - 1.5*self.width, root.y + self.height//2
+					on_press:
+						app.change_screen('select contact2')
+        Tab:
+            text: "STATUS"
+			ScrollView:
+				MDList:
+					TwoLineAvatarListItem:
+						text : 'My Status'
+						secondary_text : 'Tap to add status update'
+						ImageLeftWidget:
+							source: 'avatar.png'
+					OneLineListItem:
+						text : 'Recent updates'
+					TwoLineAvatarListItem:
+						text : 'Emmanuel'
+						secondary_text : 'Just now'
+						ImageLeftWidget:
+							source: 'avatar.png'
+					TwoLineAvatarListItem:
+						text : 'Andrew'
+						secondary_text : '24 minutes ago'
+						ImageLeftWidget:
+							source: 'avatar.png'
+					TwoLineAvatarListItem:
+						text : 'Onyedika'
+						secondary_text : '25 minutes ago'
+						ImageLeftWidget:
+							source: 'avatar.png'
+					TwoLineAvatarListItem:
+						text : 'Study buddy'
+						secondary_text : 'Today, 12:31 pm'
+						ImageLeftWidget:
+							source: 'avatar.png'
+					TwoLineAvatarListItem:
+						text : 'Mum'
+						secondary_text : 'Today, 1:20 pm'
+						ImageLeftWidget:
+							source: 'avatar.png'
+					OneLineListItem:
+						text : 'Viewed updates'
+					TwoLineAvatarListItem:
+						text : 'KivyMD'
+						secondary_text : 'Today, 11:20 pm'
+						ImageLeftWidget:
+							source: 'avatar.png'
+					TwoLineAvatarListItem:
+						text : 'kivy'
+						secondary_text : 'Today, 11:12 pm'
+						ImageLeftWidget:
+							source: 'avatar.png'
+					TwoLineAvatarListItem:
+						text : 'kivy'
+						secondary_text : 'Today, 11:31 pm'
+						ImageLeftWidget:
+							source: 'avatar.png'
+					TwoLineAvatarListItem:
+						text : 'kivy'
+						secondary_text : 'Today, 12:00 pm'
+						ImageLeftWidget:
+							source: 'avatar.png'
+					TwoLineAvatarListItem:
+						text : 'kivy'
+						secondary_text : 'Today, 12:31 pm'
+						ImageLeftWidget:
+							source: 'avatar.png'
+					TwoLineAvatarListItem:
+						text : 'kivy'
+						secondary_text : 'Today, 12:23 pm'
+						ImageLeftWidget:
+							source: 'avatar.png'
+			FloatLayout:
+				MDFloatingActionButton:
+					md_bg_color : (0.145, 0.827, 0.4, 1)
+					text_color : (1, 1, 1, 1)
+					icon : 'plus'
+					size : 45, 45
+					pos : root.width - 1.5*self.width, root.y + self.height//2
+					on_press:
+						app.change_screen('select contact2')
+        Tab:
+            text: "CALLS"
+			ScrollView:
+				MDList:
+					TwoLineAvatarIconListItem:
+						text : 'Samuel'
+						secondary_text : '22 March,12:53 PM'
+						IconLeftWidget:
+							icon : 'avatar.png'
+						IconRightWidget:
+							icon : 'phone-plus'
+							theme_text_color : 'Custom'
+							text_color : (18/255, 140/255, 126/255, 1)
+					TwoLineAvatarIconListItem:
+						text : 'Gerald'
+						secondary_text : '22 March,12:53 PM'
+						IconLeftWidget:
+							icon : 'avatar.png'
+						IconRightWidget:
+							icon : 'phone-plus'
+							theme_text_color : 'Custom'
+							text_color : (18/255, 140/255, 126/255, 1)
+					TwoLineAvatarIconListItem:
+						text : 'Alina'
+						secondary_text : '22 March,12:53 PM'
+						IconLeftWidget:
+							icon : 'avatar.png'
+						IconRightWidget:
+							icon : 'phone-plus'
+							theme_text_color : 'Custom'
+							text_color : (18/255, 140/255, 126/255, 1)
+					TwoLineAvatarIconListItem:
+						text : 'Amaka'
+						secondary_text : '22 March,12:53 PM'
+						IconLeftWidget:
+							icon : 'avatar.png'
+						IconRightWidget:
+							icon : 'phone-plus'
+							theme_text_color : 'Custom'
+							text_color : (18/255, 140/255, 126/255, 1)
+					TwoLineAvatarIconListItem:
+						text : 'Rayyan'
+						secondary_text : '22 March,12:53 PM'
+						IconLeftWidget:
+							icon : 'avatar.png'
+						IconRightWidget:
+							icon : 'phone-plus'
+							theme_text_color : 'Custom'
+							text_color : (18/255, 140/255, 126/255, 1)
+					TwoLineAvatarIconListItem:
+						text : 'Darlignton'
+						secondary_text : '22 March,12:53 PM'
+						IconLeftWidget:
+							icon : 'avatar.png'
+						IconRightWidget:
+							icon : 'phone-plus'
+							theme_text_color : 'Custom'
+							text_color : (18/255, 140/255, 126/255, 1)
+					TwoLineAvatarIconListItem:
+						text : 'Shinobi'
+						secondary_text : '22 March,12:53 PM'
+						IconLeftWidget:
+							icon : 'avatar.png'
+						IconRightWidget:
+							icon : 'phone-plus'
+							theme_text_color : 'Custom'
+							text_color : (18/255, 140/255, 126/255, 1)
+					TwoLineAvatarIconListItem:
+						text : 'Emma'
+						secondary_text : '22 March,12:53 PM'
+						IconLeftWidget:
+							icon : 'avatar.png'
+						IconRightWidget:
+							icon : 'phone-plus'
+							theme_text_color : 'Custom'
+							text_color : (18/255, 140/255, 126/255, 1)
+			FloatLayout:
+				MDFloatingActionButton:
+					md_bg_color : (0.145, 0.827, 0.4, 1)
+					text_color : (1, 1, 1, 1)
+					icon : 'phone-plus'
+					size : 45, 45
+					pos : root.width - 1.5*self.width, root.y + self.height//2
+					on_press:
+						app.change_screen('select contact2')
