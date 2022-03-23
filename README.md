@@ -3,7 +3,7 @@ whatsapp clone built using the kivy framework
 
 # Screenshots
 <p align="center">
-    <img title="Dashboard" height="400" src="https://github.com/dera001/whatsapp-clone/blob/main/screenshot/tia5562041183793707689.png" width="100"/>
+    <img title="Dashboard" height="500" src="https://github.com/dera001/whatsapp-clone/blob/main/screenshot/tia5562041183793707689.png" width="200"/>
 </p>
 
 <p align="center">
